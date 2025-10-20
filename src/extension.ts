@@ -3,7 +3,7 @@ import { MarkdownEditorProvider } from "./markdownEditor";
 import { makeDefaultEditor } from "./makeDefaultEditor";
 import { debug, setDebugMode } from "./utils";
 
-// This method is called when your extension is activated
+// Called when the extension is activated
 export function activate(context: vscode.ExtensionContext) {
   setDebugMode(context.extensionMode === vscode.ExtensionMode.Development);
   debug(`${context.extension.id} is active..!!`);
@@ -13,5 +13,5 @@ export function activate(context: vscode.ExtensionContext) {
   makeDefaultEditor();
 }
 
-// This method is called when your extension is deactivated
+// Called when the extension is deactivated
 export function deactivate() {}

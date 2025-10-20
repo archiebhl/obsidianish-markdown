@@ -1,5 +1,5 @@
 {
   "workbench.editorAssociations": {
-    "*.md": "mimic-markdown-editor.WYSIWYG",
+    "*.md": "obsidianish-markdown.WYSIWYG",
   }
 }

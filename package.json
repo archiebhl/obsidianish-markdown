@@ -1,5 +1,5 @@
 {
-  "name": "mimic-markdown-editor",
+  "name": "obsidianish-markdown",
   "displayName": "Mimic Markdown Editor (WYSIWYG)",
   "description": "",
   "version": "0.0.499",
@@ -7,10 +7,10 @@
   "engines": {
     "vscode": "^1.98.0"
   },
-  "publisher": "arpitjp",
+  "publisher": "archiebhl",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arpitjp/mimic-markdown-editor.git"
+    "url": "https://github.com/archiebhl/obsidianish-markdown.git"
   },
   "categories": [
     "Other"
@@ -22,7 +22,7 @@
   "contributes": {
     "customEditors": [
       {
-        "viewType": "mimic-markdown-editor.WYSIWYG",
+        "viewType": "obsidianish-markdown.WYSIWYG",
         "displayName": "Mimic Markdown Editor",
         "selector": [
           {
@@ -34,13 +34,13 @@
     "configuration": {
       "title": "Mimic Markdown Editor (WYSIWYG)",
       "properties": {
-        "mimic-markdown-editor.assetsFolder": {
+        "obsidianish-markdown.assetsFolder": {
           "type": "string",
           "default": "assets",
           "title": "Assets folder",
           "description": "Assets added to markdown will get saved in this folder. Default path is relative to the markdown file. You can set to project root via `${projectRoot}/assets`."
         },
-        "mimic-markdown-editor.tableOfContents": {
+        "obsidianish-markdown.tableOfContents": {
           "type": "object",
           "title": "Table of contents",
           "default": {
@@ -69,7 +69,7 @@
             }
           }
         },
-        "mimic-markdown-editor.imageDefaultConfig": {
+        "obsidianish-markdown.imageDefaultConfig": {
           "type": "object",
           "title": "Image Default Config",
           "properties": {
@@ -85,13 +85,13 @@
             }
           }
         },
-        "mimic-markdown-editor.showToolbar": {
+        "obsidianish-markdown.showToolbar": {
           "type": "boolean",
           "default": false,
           "description": "Toolbar is hidden by default",
           "title": "Show vditor toolbar"
         },
-        "mimic-markdown-editor.customCss": {
+        "obsidianish-markdown.customCss": {
           "title": "Custom CSS path",
           "type": "string",
           "description": "Ex: '.vditor-ir pre.vditor-reset {line-height: 32px;}'",
