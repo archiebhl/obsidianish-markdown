@@ -95,3 +95,8 @@ https://github.com/Vanessa219/vditor/issues/1634#issuecomment-2210367362 */
 .jconfirm-buttons button {
   text-transform: none!important;
 }
+
+/* Word wrap on code fences */
+pre code.hljs {
+  white-space: pre-wrap;
+}

@@ -59,7 +59,7 @@ const initVditor = () => {
     preview: {
       actions: [],
       hljs: {
-        style: `github${isDarkTheme ? "-dark" : ""}`,
+        style: isDarkTheme ? "atom-one-dark" : "github", 
       },
       mode: "both",
       theme: {
